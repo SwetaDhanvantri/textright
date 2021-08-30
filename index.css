@@ -1,7 +1,19 @@
-.call {
-
+.header h2 {
+    font-size: 36px;
     padding-right: 15px;
-    padding-top: 20px;
+    padding-top: 28px;
     text-align: right;
 
+}
+
+@media (max-width:600px) {
+    h2.responsive {
+        font-size: 20px;
+    }
+}
+
+.header img {
+    height: auto;
+    width: 100%;
+    padding: 20px;
 }
